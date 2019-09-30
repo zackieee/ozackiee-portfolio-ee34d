@@ -13,7 +13,7 @@ jobs:
       - checkout
       - run:
           name: 'Install Firebase CLI tools'
-          command: npm install --save-dev firebase-tools
+          command: npm install --save-dev firebase
       - run:
           name: 'Deploy to Hosting'
           command: ./node_modules/.bin/firebase deploy --token="$FIREBASE_TOKEN"
