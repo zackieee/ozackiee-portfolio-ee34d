@@ -450,7 +450,19 @@ li {
   text-align: center;
 }
 
-#skill .explanation img{
+#skill .explanation
+.icon{
+  display: flex;
+  justify-content: center;
+}
+
+#skill .explanation
+.icon a{
+  margin: 0 20px;
+}
+
+#skill .explanation >
+ .icon img{
   margin: 20px auto;
   width: 50px;
 }
