@@ -93,7 +93,7 @@ li {
 }
 
 .section {
-  padding: 100px 0;
+  padding: 70px 0 50px;
 }
 
 .section:nth-of-type(odd) {
@@ -143,7 +143,7 @@ li {
   width: 98%;
   height: 98%;
   margin: 10px auto;
-  background: url("../img/background-image.png") center ;
+  background: url("../img/background-image.png") center;
   border-radius: 10px;
 }
 
@@ -260,8 +260,16 @@ li {
   font-size: 10px;
 }
 
-.card-caption-url img {
+.card-caption-url{
+  display: flex;
+  justify-content: center;
   font-size: 10px;
+}
+
+.card-caption-url img{
+  width:  28px;
+  height: 28px;
+  margin: 20px 0 0 25px;
 }
 
 .card img.fadein {
@@ -283,7 +291,7 @@ li {
 
 #works .card {
   flex-basis: 31%;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 #works .card-wrapper::after {
@@ -297,6 +305,11 @@ li {
   margin-bottom: 0;
 }
 
+#works .notice {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
 
 /*--------------------------------
  FEATURE
