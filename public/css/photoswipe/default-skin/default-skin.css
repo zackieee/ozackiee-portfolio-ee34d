@@ -42,7 +42,8 @@
     opacity: 0.9; }
   .pswp__button::-moz-focus-inner {
     padding: 0;
-    border: 0; }
+    border: 0; 
+  }
 
 /* pswp__ui--over-close class it added when mouse is over element that should close gallery */
 .pswp__ui--over-close .pswp__button--close {

@@ -133,10 +133,18 @@ li {
 ヘッダー
 ---------------------------------*/
 #header {
+  height: 86vh;
+}
+
+#header .inner{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 86vh;
+  width: 98%;
+  height: 98%;
+  margin: 10px auto;
+  background: url("../img/background-image.png") center ;
+  border-radius: 10px;
 }
 
 #header .logo {
@@ -252,7 +260,7 @@ li {
   font-size: 10px;
 }
 
-.card-caption-url {
+.card-caption-url img {
   font-size: 10px;
 }
 
@@ -288,6 +296,7 @@ li {
 #works .card:nth-child(3n+1):nth-last-child(-n+3)~div {
   margin-bottom: 0;
 }
+
 
 /*--------------------------------
  FEATURE
@@ -421,6 +430,16 @@ li {
 
 #skill .rate5:after {
   width: 100px;
+}
+
+#skill .explanation {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#skill .explanation img{
+  margin: 20px auto;
+  width: 50px;
 }
 
 /*--------------------------------
