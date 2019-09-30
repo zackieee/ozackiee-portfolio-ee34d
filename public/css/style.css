@@ -451,18 +451,18 @@ li {
 }
 
 #skill .explanation
-.icon{
+.study-icon {
   display: flex;
   justify-content: center;
 }
 
 #skill .explanation
-.icon a{
+.study-icon a{
   margin: 0 20px;
 }
 
 #skill .explanation >
- .icon img{
+ .study-icon img{
   margin: 20px auto;
   width: 50px;
 }
